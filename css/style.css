@@ -1,0 +1,15 @@
+#land-page{
+    background: linear-gradient(rgba(0, 0, 0, 0.9),rgba(0, 0, 0, 0.8)),
+    url("../images/b.jpg") no-repeat center center !important;
+    background-size: 100% 100% !important;
+}
+
+.bord{
+border: 3px solid #fff;
+padding: 15px;
+height: 300px;
+}
+
+#back-link{
+    background: linear-gradient(#001F3F,#001F3F);
+}

@@ -1,0 +1,224 @@
+  body{
+        background-color: #fff;
+        color:#444;
+        font-weight: normal;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .img-fluid{
+            min-height: 90px !important;
+    }
+  .heading-container{
+   display: inline-block;
+  }
+
+  
+    .title-heading{
+        display: inline-block;
+        width: auto;
+    }
+     .title-heading:after{
+        content: '';
+        display: block;
+        border-bottom:4px solid #03396a;
+        width:40%;
+        margin: 10px auto;
+
+    }
+#main-container{
+    margin-top:112px !important;
+}
+
+.btn-main{
+  
+    border:1px solid#03396a;
+ 
+    background: #03396a;
+  
+}
+
+.btn-featured:hover, .btn-main:hover, .btn-featured:focus, .btn-main:focus{
+      border:1px solid#333;
+        background: #333;
+    color:#fff;  
+}
+
+.btn{
+  padding: 10px 15px;
+    border-radius: 2px;
+    border: medium none;
+    vertical-align: middle;
+    cursor: pointer;
+     white-space: nowrap;
+     color:#fff;
+    text-transform: capitalize!important;
+    -webkit-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+}
+.btn-featured{
+    border:1px solid#26a960;
+    background: #26a960;  
+}
+
+.btn-main:hover, .btn-main:focus{
+    border:1px solid#333;
+    background: #333;
+    color:#fff;  
+}
+
+
+.navbar .dropdown-menu{
+    background:#03396a !important;
+     color:#fff !important;
+     border: none;
+     margin-top:15px;
+}
+
+.navbar .dropdown-menu:before{
+    position: absolute;
+    top: -10px;
+    left:15px;
+    display: inline-block;
+    border-right: 10px solid transparent;
+    border-bottom: 10px solid #03396a;
+    border-left: 10px solid transparent;
+    border-bottom-color: #03396a;
+    content: '';
+}
+
+@media(max-width:766px){
+ .nav  .dropdown-menu{
+  
+     margin-top:0px;
+}
+}
+.dropdown-divider{
+    padding:0 !important;
+    margin: 0 !important;
+}
+.dropdown-item:active, .dropdown-item:focus, .dropdown-item:hover{
+    background-color: #03396a !important;
+    color:#fff;
+    border:none;
+}
+  
+@media(min-width: 1075px){
+   .headline .img-fluid{
+        max-height:200px;
+        
+    }
+}
+/* .navbar-collapse.collapse.show{
+        border-top: 2px solid #efebe9;
+        
+    } */
+.navbar .navbar-toggler .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255, 255, 255, 1)' stroke-width='3' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+
+}
+  
+    .card{
+
+        background-color: #fff;
+        border: none;
+        border-radius: 1px;
+        position: relative;
+        width: 100%;
+        box-shadow: 0  1px 1px 0 rgba(0, 0, 0, 0.3);
+    }
+    .card-footer{
+        background-color: #fff;
+    }
+    .card-header{
+        text-align: left !important;
+        border-bottom:none;
+        background-color: #fff;
+    }
+    
+    @media (max-width: 576px) {
+        .card-header{
+            padding: 0,5px;
+            margin-left: -20px;
+
+        } 
+    }
+
+     .navcolor{
+   background-color:#03396a;
+   line-height: 40px;   
+   color:white;
+  } 
+  .navbar-brand{
+      font-weight: 600;
+  }
+
+  .navbar-toggler, .navbar .navbar-toggler .navbar-toggler-icon{
+border: none !important;
+color: White !important;
+  }
+    .navcolor .navbar-nav .active>.nav-link, 
+    .navcolor .navbar-nav .nav-link, .navbar-brand{
+      color:white !important;
+  }
+  .topnav{
+      background-color:#5cdb94;
+      line-height: 30px !important;
+  }
+
+  .footer, .footer a{
+        background-color:#03396a;
+        color: #fff;
+        text-decoration: none;
+  }
+
+  .footer-copyright{
+      background-color:#03396a;
+      z-index: -9999;
+      color:#fff;
+  }
+
+  .footer hr{
+      background-color: #fff;
+  }
+
+  .footer-copyright a{
+      color:#fff;
+  }
+
+  .image-text:before{
+    position: absolute;
+    top: -10px;
+    left:43px;
+    display: inline-block;
+    border-right: 12px solid transparent;
+    border-top: 12px solid #ede9e9;
+    border-left: 12px solid transparent;
+    border-bottom-color: #ede9e9;
+    content: '';
+}
+
+@media (min-width:991px)
+{
+    .prices .pricing-card
+    {
+        max-width: 250px;
+        background:#03396a;
+    }
+}
+
+@media (min-width:600px)
+{
+    .prices .pricing-card
+    {
+        max-width: 200px;
+        background:#03396a;
+    }
+}
+.prices .pricing-card
+{
+    background:#03396a;
+    margin-bottom: 20px;
+}
+
+  
